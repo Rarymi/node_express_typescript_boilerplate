@@ -8,8 +8,17 @@
     "forceConsistentCasingInFileNames": true,
     "outDir": "./dist",
     "strict": true,
-    "allowJs": true
+    "allowJs": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "strictPropertyInitialization": false
   },
+  "lib": [
+    "es5",
+    "es6"
+  ],
   "include": [
     "src/**/*"
   ],
